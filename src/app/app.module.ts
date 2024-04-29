@@ -8,7 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
@@ -16,9 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
     PlantModule,
     HttpClientModule
   ],
-  providers: [
-    provideClientHydration()
-  ],
+  providers: [],
   bootstrap: [AppComponent, PlantModule]
 })
 export class AppModule { }
